@@ -15,6 +15,8 @@ namespace WebApplication1
 
             var app = builder.Build();
 
+            AppService.ServiceProvider = app.Services;
+
             app.UseAuthorization();
 
 

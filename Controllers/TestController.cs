@@ -36,5 +36,12 @@ namespace WebApplication1.Controllers
                 .GetService<TestService>();
             return testService.GetGuid();
         }
+
+        [HttpGet("4")]
+        public Guid Get4()
+        {
+            var testService = AppService.ServiceProvider.GetService<TestService>();
+            return testService.GetGuid();
+        }
     }
 }

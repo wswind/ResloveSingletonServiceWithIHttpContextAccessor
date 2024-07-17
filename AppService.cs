@@ -3,5 +3,7 @@
     public static class AppService
     {
         public static IServiceCollection Services;
+
+        public static IServiceProvider ServiceProvider;
     }
 }
