@@ -14,4 +14,9 @@
             return guid;
         }
     }
+
+    public class TestService2 : TestService
+    {
+
+    }
 }

@@ -5,5 +5,7 @@
         public static IServiceCollection Services;
 
         public static IServiceProvider ServiceProvider;
+
+        public static TestService2 TestService2;
     }
 }
